@@ -1,0 +1,52 @@
+# import turtle
+# t = turtle
+# t.setx(0)
+# t.bgcolor("grey")
+# t.fillcolor("black")
+# t.pencolor("green")
+# t.write("B",align="center",font="Times 60 normal")
+
+# t.sety(-100)
+# t.bgcolor("grey")
+# t.fillcolor("black")
+# t.pencolor("green")
+# t.write("931",align="center",font="Times 60 normal")
+
+
+# t.sety(-200)
+# t.bgcolor("grey")
+# t.fillcolor("black")
+# t.pencolor("green")
+# t.write("M",align="center",font="Times 60 normal")
+# turtle.Screen().exitonclick()
+
+import turtle
+t = turtle
+t.bgcolor("grey")
+t.pencolor("green")
+t.setx(0)
+for i in range(1,5):
+    t.forward(100)
+    t.left(90)
+for i in range(1,5):
+    t.forward(100)
+    t.right(90)
+
+
+t.sety(-300)
+
+for i in range(1,5):
+    t.forward(100)
+    t.left(90)
+for i in range(1,5):
+    t.right(90)
+    t.forward(100)
+    penup()
+    
+    
+
+SC = turtle.Screen().exitonclick()
+
+
+
+
